@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arif.doktor">
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DokTor"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HistoryKerusakan"></activity>
+        <activity android:name=".Pewaratan" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuUtama" />
+        <activity android:name=".MenuPerawatan" />
+        <activity android:name=".MenuKerusakan" />
+        <activity android:name=".ListMesin" />
+        <activity android:name=".G1Activity" />
+        <activity android:name=".G2Activity" />
+        <activity android:name=".G3Activity" />
+        <activity android:name=".G4Activity" />
+        <activity android:name=".G5Activity" />
+        <activity android:name=".G6Activity" />
+        <activity android:name=".G7Activity" />
+        <activity android:name=".G8Activity" />
+        <activity android:name=".G9Activity" />
+        <activity android:name=".G10Activity" />
+        <activity android:name=".G11Activity" />
+        <activity android:name=".CFMesin" />
+        <activity android:name=".ListListrik" />
+        <activity android:name=".G12Activity" />
+        <activity android:name=".G13Activity" />
+        <activity android:name=".G14Activity" />
+        <activity android:name=".G15Activity" />
+        <activity android:name=".G16Activity" />
+        <activity android:name=".G17Activity" />
+        <activity android:name=".G18Activity" />
+        <activity android:name=".G19Activity" />
+        <activity android:name=".G20Activity" />
+        <activity android:name=".G21Activity" />
+        <activity android:name=".G22Activity" />
+        <activity android:name=".G23Activity" />
+        <activity android:name=".G24Activity" />
+        <activity android:name=".G25Activity" />
+        <activity android:name=".G26Activity" />
+        <activity android:name=".G27Activity" />
+        <activity android:name=".G28Activity" />
+        <activity android:name=".G29Activity" />
+        <activity android:name=".G30Activity" />
+        <activity android:name=".G31Activity" />
+        <activity android:name=".CFListrik" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Deskripsi" />
+        <activity android:name=".Penyebab" />
+        <activity android:name=".Perbaikan" />
+        <activity android:name=".Deskripsi2" />
+        <activity android:name=".Deskripsi_Piston" />
+        <activity android:name=".Penyebab_Piston" />
+        <activity android:name=".Perbaikan_Piston" />
+        <activity android:name=".TentangAplikasi" />
+        <activity android:name=".MenuBantuan" />
+    </application>
+
+</manifest>
